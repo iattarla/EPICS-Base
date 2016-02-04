@@ -1,0 +1,15 @@
+Index: streamApp/Makefile
+===================================================================
+RCS file: /cvs/G/DRV/StreamDevice2/streamApp/Makefile,v
+retrieving revision 1.5
+diff -r1.5 Makefile
+34,35c34,35
+< # add asyn.dbd if you want to have asyn Record and asyn device supports
+< # streamApp_DBD += asyn.dbd
+---
+> # add asynRecord.dbd if you like
+> streamApp_DBD += asynRecord.dbd
+69c69
+< ifeq ($(EPICS_REVISION),14)
+---
+> ifeq ($(BASE_3_14), YES)

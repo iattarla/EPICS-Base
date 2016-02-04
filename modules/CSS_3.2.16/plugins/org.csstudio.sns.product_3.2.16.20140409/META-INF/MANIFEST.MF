@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,or
+ g.eclipse.core.expressions,org.eclipse.equinox.security;bundle-versio
+ n="1.0.200",org.eclipse.ui,org.eclipse.ui.intro,org.eclipse.ui.intro.
+ universal,org.eclipse.ui.cheatsheets,org.eclipse.ui.ide;bundle-versio
+ n="3.6.0",org.csstudio.logging;bundle-version="0.0.1",org.csstudio.lo
+ gging.ui;bundle-version="0.0.1",org.csstudio.workspace,org.csstudio.s
+ tartup;bundle-version="3.0.0",org.csstudio.utility.product;bundle-ver
+ sion="1.0.0",org.csstudio.apputil.ui;bundle-version="1.1.7",org.csstu
+ dio.ui.menu.app;bundle-version="3.0.0",org.csstudio.startup.helper;bu
+ ndle-version="3.0.0",org.csstudio.security;bundle-version="1.0.0",org
+ .csstudio.security.ui;bundle-version="1.0.0"
+Bundle-Vendor: Kay Kasemir <kasemirk@ornl.gov>, Xihui Chen <chenx1@orn
+ l.gov> - SNS
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 3.2.16.20140409
+Eclipse-PlatformFilter: (| (osgi.ws=win32) (& (osgi.ws=cocoa)(osgi.arc
+ h=x86_64)) (osgi.ws=gtk))
+Bundle-Name: Control System Studio (SNS)
+Bundle-ManifestVersion: 2
+Bundle-Description: CSS for SNS users (Office, control rooms)
+Bundle-SymbolicName: org.csstudio.sns.product;singleton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

@@ -1,0 +1,1 @@
+java -jar /usr/local/epics/modules/vdct/VisualDCT.jar /usr/local/epics/base/dbd/base.dbd

@@ -1,0 +1,52 @@
+#include "StreamFormatConverter.h"
+
+ ROR     {#turn right
+	  out 0x01 0x01 0x00;
+          out "%(A)r";  #motorno
+	  out 0x00 0x00;  
+          out "%(B)r";  #hex1
+	  out "%(C)r";  #hex2
+	  out "%(D)r";  #checksum
+	  in    "%9r";     #read 9 byte data    
+          } 
+ 
+ ROL     {# turn left 
+	  out 0x01 0x02 0x00;
+          out "%(A)r";  #motorno
+          out 0x00 0x00;
+          out "%(B)r";  #hex1
+          out "%(C)r";  #hex2
+          out "%(D)r";  #checksum
+          in "%9r";     #read 9 byte data
+          }
+MVP     { #move the position
+	  out 0x01 0x04 ;
+	  out "%(E)r";  #type
+          out "%(A)r";  #motorno
+          out 0x00 0x00;
+          out "%(B)r";  #hex1
+          out "%(C)r";  #hex2
+          out "%(D)r";  #checksum
+          in "%9r";     #read 9 byte data
+          }
+
+           #change to ascii mode
+ ASCII    { 
+          out 0x01 0x8B 0x00 0x00 0x00 0x00 0x00 0x00 0x8C;
+          in "%9r";
+          }
+
+ MST     {  # stop motor
+          out 0x01 0x03 0x00 0x00 0x00 0x00 0x00 0x00 0x04;
+          in "%9r";
+          }
+
+
+#ROR     {
+#         out "%(A)r";  #motorno
+#	  out 0x01 0x00 0x00 0x00 0x00;  
+#         out "%(B)r";  #hex1
+#	  out "%(C)r";  #hex2
+#	  out "%(D)r";  #checksum
+#	  in "%9r";     #read 9 byte data    
+#          } 

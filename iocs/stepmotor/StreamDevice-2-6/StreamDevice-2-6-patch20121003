@@ -1,0 +1,32 @@
+Index: src/StreamBusInterface.cc
+===================================================================
+RCS file: /cvs/G/DRV/StreamDevice2/src/StreamBusInterface.cc,v
+retrieving revision 1.3
+diff -u -r1.3 StreamBusInterface.cc
+--- src/StreamBusInterface.cc	4 Aug 2008 15:44:46 -0000	1.3
++++ src/StreamBusInterface.cc	3 Oct 2012 14:42:18 -0000
+@@ -66,7 +66,7 @@
+ {
+     StreamBusInterfaceRegistrarBase* r;
+     StreamBusInterface* bus;
+-    for (r = r->first; r; r = r->next)
++    for (r = StreamBusInterfaceRegistrarBase::first; r; r = r->next)
+     {
+         bus = r->find(client, busname, addr, param);
+         if (bus) return bus;
+Index: src/StreamProtocol.cc
+===================================================================
+RCS file: /cvs/G/DRV/StreamDevice2/src/StreamProtocol.cc,v
+retrieving revision 1.16
+diff -u -r1.16 StreamProtocol.cc
+--- src/StreamProtocol.cc	16 May 2012 14:24:21 -0000	1.16
++++ src/StreamProtocol.cc	3 Oct 2012 14:42:18 -0000
+@@ -1037,7 +1037,7 @@
+             "Garbage after numeric value: %s\n", buffer());
+         return false;
+     }
+-    if (n < 0 || n > max)
++    if (n > max)
+     {
+         debug("StreamProtocolParser::Protocol::compileNumber: %s\n",
+             buffer.expand()());

@@ -1,0 +1,84 @@
+record(ao, ROR) {
+  field(DTYP, "stream")
+  field(OUT, "@ip.proto ROR ipconn")
+}
+
+record(ao, ROL) {
+  field(DTYP, "stream")
+  field(OUT, "@ip.proto ROL ipconn")
+}
+record(ao, MST) {
+  field(DTYP, "stream")
+  field(OUT, "@ip.proto MST ipconn")
+}
+
+record(ao, ASCII) {
+  field(DTYP, "stream")
+  field(OUT, "@ip.proto ASCII ipconn")
+}
+
+record(ao, MVP) {
+  field(DTYP, "stream")
+  field(OUT, "@ip.proto MVP ipconn")
+}
+
+record(stringin, MEASVC1) {
+  field(DTYP, "stream")
+  field(INP, "@ip.proto MEASVC1 ipconn")
+  field(PHAS, "1")
+}
+
+record(stringin, MEASVC2) {
+  field(DTYP, "stream")
+  field(INP, "@ip.proto MEASVC2 ipconn")
+  field(PHAS, "2")
+}
+
+record(ao, VOLT1) {
+  field(DTYP, "stream")
+  field(OUT, "@ip.proto VOLT1 ipconn")
+}
+
+record(ao, VOLT2) {
+  field(DTYP, "stream")
+  field(OUT, "@ip.proto VOLT2 ipconn")
+}
+
+record(bo, OUTP1) {
+  field(DTYP, "stream")
+  field(OUT, "@ip.proto OUTP1 ipconn")
+  field(ZNAM, "OFF")
+  field(ONAM, "ON")
+}
+
+record(bo, OUTP2) {
+  field(DTYP, "stream")
+  field(OUT, "@ip.proto OUTP2 ipconn")
+  field(ZNAM, "OFF")
+  field(ONAM, "ON")
+}
+
+record(ai, hiz1) {
+  field(VAL, "50")
+  field(FLNK, "TOPLA")
+}
+
+record(ai, hiz2) {
+  field(VAL, "100")
+  field(FLNK, "TOPLA")
+}
+
+record(ai, motorno) {
+  field(VAL, "1")
+  field(FLNK, "TOPLA")
+}
+
+
+record (calcout, TOPLA) {
+  field (INPA, "hiz1")
+  field (INPB, "hiz2")
+  field (INPC, "motorno")
+  field (CALC, "0")
+  field (DTYP, "stream")
+  field (OUT, "@ip.proto write_ABC ipconn")
+} 

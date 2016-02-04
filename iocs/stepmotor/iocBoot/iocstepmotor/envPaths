@@ -1,0 +1,5 @@
+epicsEnvSet("ARCH","linux-x86_64")
+epicsEnvSet("IOC","iocstepmotor")
+epicsEnvSet("TOP","/usr/local/epics/iocs/stepmotor")
+epicsEnvSet("EPICS_BASE","/usr/local/epics/base")
+epicsEnvSet("ASYN","/usr/local/epics/modules/asyn4-23")

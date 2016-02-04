@@ -1,0 +1,26 @@
+#!../../bin/linux-x86_64/stepmotor
+
+## You may have to change stepmotor to something else
+## everywhere it appears in this file
+
+< envPaths
+epicsEnvSet("STREAM_PROTOCOL_PATH", "${TOP}/protocols/")
+cd ${TOP}
+
+## Register all support components
+dbLoadDatabase "dbd/stepmotor.dbd"
+stepmotor_registerRecordDeviceDriver pdbbase
+
+## Load record instances
+#dbLoadRecords("db/xxx.db","user=bpmHost")
+dbLoadRecords("db/stepmotor.db")
+
+drvAsynIPPortConfigure("ipconn","92.61.14.72:9001")
+asynSetTraceMask("ipconn",-1,0x9)
+asynSetTraceIOMask("ipconn",-1,0x2)
+
+cd ${TOP}/iocBoot/${IOC}
+iocInit
+
+## Start any sequence programs
+#seq sncxxx,"user=bpmHost"

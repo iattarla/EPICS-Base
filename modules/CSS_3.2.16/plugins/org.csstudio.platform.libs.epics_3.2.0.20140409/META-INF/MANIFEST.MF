@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: com.cosylab.epics.caj,com.cosylab.epics.caj.cas,com.co
+ sylab.epics.caj.cas.handlers,com.cosylab.epics.caj.cas.requests,com.c
+ osylab.epics.caj.cas.util,com.cosylab.epics.caj.cas.util.examples,com
+ .cosylab.epics.caj.impl,com.cosylab.epics.caj.impl.handlers,com.cosyl
+ ab.epics.caj.impl.reactor,com.cosylab.epics.caj.impl.reactor.lf,com.c
+ osylab.epics.caj.impl.requests,com.cosylab.epics.caj.impl.sync,com.co
+ sylab.epics.caj.util,com.cosylab.epics.caj.util.logging,gov.aps.jca,g
+ ov.aps.jca.cas,gov.aps.jca.configuration,gov.aps.jca.dbr,gov.aps.jca.
+ event,gov.aps.jca.jni,org.csstudio.platform.libs.epics
+Require-Bundle: org.eclipse.core.runtime
+Bundle-Vendor: BNL/DESY/ORNL/SLAC
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,lib/caj-1.1.14.jar,lib/jca-2.3.6.jar
+Bundle-Version: 3.2.0.20140409
+Bundle-Localization: plugin
+Bundle-Name: EPICS Plug-in
+Bundle-Activator: org.csstudio.platform.libs.epics.EpicsPlugin
+Bundle-ManifestVersion: 2
+Bundle-Description: EPICS Channel Access V3 Library
+Bundle-SymbolicName: org.csstudio.platform.libs.epics;singleton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

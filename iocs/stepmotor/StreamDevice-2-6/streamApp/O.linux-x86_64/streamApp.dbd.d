@@ -1,0 +1,51 @@
+# DO NOT EDIT: This file created by mkmf.pl,v 1.5 2002/03/25 21:33:24 jba Exp $ 
+
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/base.dbd
+../O.Common/streamApp.dbd : ../asynRegistrars.dbd
+../O.Common/streamApp.dbd : ../../../dbd/stream.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/menuGlobal.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/menuConvert.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/aaiRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/aaoRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/aiRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/aoRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/aSubRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/biRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/boRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/calcRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/calcoutRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/compressRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/dfanoutRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/eventRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/fanoutRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/longinRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/longoutRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/mbbiRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/mbbiDirectRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/mbboRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/mbboDirectRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/permissiveRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/selRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/seqRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/stateRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/stringinRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/stringoutRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/subRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/subArrayRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/waveformRecord.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/devSoft.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/menuAlarmSevr.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/menuAlarmStat.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/menuCompress.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/menuFtype.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/menuIvoa.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/menuOmsl.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/menuPini.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/menuPriority.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/menuScan.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/menuSimm.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/menuYesNo.dbd
+../O.Common/streamApp.dbd : /opt/epics/base/dbd/dbCommon.dbd
+
+
+../O.Common/streamAppInclude.dbd : ../Makefile

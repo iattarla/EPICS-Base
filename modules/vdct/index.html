@@ -1,0 +1,540 @@
+<html xmlns:d="urn:schemas-cosylab-com:Project">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<style>.title 
+{
+  color: #CE2B25; 
+  font-size: 200%;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  color: #003c8c;
+  text-align: left; 
+  margin-top: 2em; 
+  margin-bottom: 1em; 
+  font-family: Verdana, Arial, Helvetica; 
+}
+
+h2 
+{ 
+  color: #CE2B25; 
+}
+
+h1.toc, h2.toc, h3.toc, h4.toc, h5.toc, h6.toc
+{
+  color: #003c8c;
+  font-size: small;
+  text-align: left;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+h1.toc
+{
+  margin-left: 3%;
+  font-weight: bold;
+}
+
+h2.toc
+{
+  margin-left: 6%;
+}
+
+h3.toc
+{
+  margin-left: 9%;
+}
+
+h4.toc
+{
+  margin-left: 12%;
+}
+
+h5.toc
+{
+  margin-left: 15%;
+}
+
+h6.toc
+{
+  margin-left: 18%;
+}
+
+body 
+{
+  margin-left: 5%; 
+  margin-right: 5%;
+}
+
+p
+{
+  font-family: Verdana, Arial, Helvetica;
+}
+
+p.table
+{
+  text-align: left;
+  margin-bottom: 0cm;
+}
+
+p.figure
+{ 
+  text-align: center
+}
+
+p
+{
+  text-align: justify;
+}
+
+p.comment
+{
+  color: red;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p.warning
+{
+  background-color: #E0E0E0;
+}
+
+p.warning table tr td
+{
+  border-width: 0.02cm; 
+  border-color: red;
+}
+
+p.notice
+{
+  background-color: #F0F0F0;
+}
+
+p.notice table tr td
+{
+  border-width: 0.02cm; 
+  border-color: black;
+}
+
+ol, ul
+{
+  font-family: verdana,sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 0%;
+}
+
+pre
+{
+  background: #F0F0F0;
+}
+
+table
+{
+  width: 100%;
+  margin-bottom: 0cm;
+}
+
+th
+{ 
+  padding: 0.1cm;
+  background: #CACAD4; 
+  text-align: center; 
+  border-style: solid; 
+  border-width: 0.02cm;
+}
+
+th.header
+{
+  background: #D0D0D0;
+}
+
+td
+{
+  padding: 0.1cm;
+  border-style: solid;
+  border-width: 0.02cm;
+}
+
+table.equation tr td
+{
+  border-width: 0;
+}
+
+tr.reviewAccepted 
+{
+  background: #D0FFD0;
+}
+
+tr.reviewRejected
+{
+  background: #FFD0D0;
+}
+
+tr.retirement
+{
+  background: black;
+  color: white
+}
+
+span.menu
+{
+  color: white;
+  background: #787996;
+  font-family: tahoma;
+  font-size: 80%;
+}
+
+span.gui
+{
+  border-left-width: 0.025cm;
+  border-top-width: 0.025cm;
+  border-right-width: 0.04cm;
+  border-bottom-width: 0.04cm;
+  border-style: solid;
+  font-family: tahoma;
+  font-size: 80%
+}
+
+span.keystroke
+{            
+  border-style: groove;
+  border-color: #E0E0E0;
+  font-family: tahoma;
+  font-size: 70%;
+}
+
+span.emphasis
+{
+  font-style: italic;
+}
+
+span.bold
+{
+  font-weight: bold;
+}
+
+tt.filename
+{
+  font-family: tahoma;
+}
+
+tt.keyword
+{
+  font-weight: bold;
+}
+
+tt.command
+{
+  font-family: tahoma; 
+  font-weight: bold;
+}
+
+p.description 
+{
+  text-align: center;
+  margin-top: 0cm;
+}
+</style>
+</head>
+<body>
+<p class="table">
+<table>
+<tr>
+<th colspan="2" class="title">VisualDCT build</th>
+</tr>
+<tr>
+<th class="projectInfo">Classification:</th><td>Project Documentation</td>
+</tr>
+<tr>
+<th class="projectInfo">Author:</th><td>Matej Sekoranja</td>
+</tr>
+<tr>
+<th class="projectInfo">Date:</th><td>2009-04-21</td>
+</tr>
+</table>
+</p>
+<h2>Scope</h2>
+<p>
+<scope xmlns="urn:schemas-cosylab-com:Project">This project page contains all distribution files, sources, documentation and any other VisualDCT resources.</scope>
+</p>
+<h2>
+<a name="Audience">Audience</a>
+</h2>
+<p>
+<audience>All users and developers interested in VisualDCT, mainly EPICS community.</audience>
+</p>
+<h2>Developer Info</h2>
+<p class="table">
+<table>
+<tr>
+<th>Developer</th><th>Mail</th><th>Responsibility</th>
+</tr>
+<tr>
+<td>Matej Sekoranja</td><td><a href="mailto:matej.sekoranja_AT_cosylab.com">matej.sekoranja_AT_cosylab.com</a></td><td>implementator</td>
+</tr>
+<tr>
+<td>Jaka Bobnar</td><td><a href="mailto:jaka.bobnar_AT_cosylab.com">jaka.bobnar_AT_cosylab.com</a></td><td>implementator</td>
+</tr>
+<tr>
+<td>Sunil Sah</td><td><a href="mailto:sunil.sah_AT_cosylab.com">sunil.sah_AT_cosylab.com</a></td><td>implementator</td>
+</tr>
+</table>
+</p>
+<h2>News</h2>
+<p class="table">
+<table>
+<tr>
+<th>Date</th><th>Author</th><th>Title</th><th>Description</th>
+</tr>
+<tr>
+<td>2002-07-10</td><td><a href="mailto:matej.sekoranja_AT_cosylab.com">Matej Sekoranja</a></td><td>VisualDCT ported to Eclipse and Ant builds.</td><td date="2002-07-10" developer="msekoranja" title="VisualDCT ported to Eclipse and Ant builds.">N/A</td>
+</tr>
+<tr>
+<td>2002-07-23</td><td><a href="mailto:matej.sekoranja_AT_cosylab.com">Matej Sekoranja</a></td><td>Package A implemented.</td><td date="2002-07-23" developer="msekoranja" title="Package A implemented.">N/A</td>
+</tr>
+<tr>
+<td>2002-08-20</td><td><a href="mailto:matej.sekoranja_AT_cosylab.com">Matej Sekoranja</a></td><td>Package B alpha integration build available.</td><td date="2002-08-20" developer="msekoranja" title="Package B alpha integration build available.">N/A</td>
+</tr>
+<tr>
+<td>2003-07-18</td><td><a href="mailto:matej.sekoranja_AT_cosylab.com">Matej Sekoranja</a></td><td>Package C (full graphical hierarchy support) release candidate.</td><td date="2003-07-18" developer="msekoranja" title="Package C (full graphical hierarchy support) release candidate.">N/A</td>
+</tr>
+<tr>
+<td>2003-09-27</td><td><a href="mailto:matej.sekoranja_AT_cosylab.com">Matej Sekoranja</a></td><td>Minor bugfixes, debug plugin support.</td><td date="2003-09-27" developer="msekoranja" title="Minor bugfixes, debug plugin support.">N/A</td>
+</tr>
+<tr>
+<td>2004-03-30</td><td><a href="mailto:matej.sekoranja_AT_cosylab.com">Matej Sekoranja</a></td><td>CapFast interoperability, minor bugfixes.</td><td date="2004-03-30" developer="msekoranja" title="CapFast interoperability, minor bugfixes.">N/A</td>
+</tr>
+<tr>
+<td>2004-08-30</td><td><a href="mailto:matej.sekoranja_AT_cosylab.com">Matej Sekoranja</a></td><td>Package D1 release candidate.</td><td date="2004-08-30" developer="msekoranja" title="Package D1 release candidate.">N/A</td>
+</tr>
+<tr>
+<td>2004-11-18</td><td><a href="mailto:matej.sekoranja_AT_cosylab.com">Matej Sekoranja</a></td><td>Package D2 pre-release.</td><td date="2004-11-18" developer="msekoranja" title="Package D2 pre-release.">N/A</td>
+</tr>
+<tr>
+<td>2005-05-27</td><td><a href="mailto:matej.sekoranja_AT_cosylab.com">Matej Sekoranja</a></td><td>Package D2 release.</td><td date="2005-05-27" developer="msekoranja" title="Package D2 release.">N/A</td>
+</tr>
+<tr>
+<td>2005-12-20</td><td><a href="mailto:matej.sekoranja_AT_cosylab.com">Matej Sekoranja</a></td><td>Package F release.</td><td date="2005-12-20" developer="msekoranja" title="Package F release.">N/A</td>
+</tr>
+<tr>
+<td>2008-01-22</td><td><a href="mailto:matej.sekoranja_AT_cosylab.com">Matej Sekoranja</a></td><td>Package E release.</td><td date="2008-01-22" developer="msekoranja" title="Package E release.">N/A</td>
+</tr>
+<tr>
+<td>2009-04-21</td><td><a href="mailto:matej.sekoranja_AT_cosylab.com">Matej Sekoranja</a></td><td>Package F2 release.</td><td date="2009-04-21" developer="msekoranja" title="Package F2 release.">N/A</td>
+</tr>
+</table>
+</p>
+<h2>Distribution</h2>
+<p class="table">
+<table>
+<tr>
+<th>Version</th><th>Type</th><th>Description</th><th>Buildlog</th><th>Testlog</th>
+</tr>
+<tr>
+<td><a href="VisualDCT-dist-2.6.1274.zip">2.6.1274</a></td><td>release</td><td id="2.6.1274" buildlog="build/buildlog.txt" type="release" url="VisualDCT-dist-2.6.1274.zip">Manual build.</td><td><a href="build/buildlog.txt">View
+						</a></td><td>
+						N/A
+					</td>
+</tr>
+</table>
+</p>
+<h2>Dependencies</h2>
+<p class="table">
+<table>
+<tr>
+<th>Version</th><th>Type</th><th>Name</th>
+</tr>
+<tr>
+<td>1.4</td><td>3rdparty</td><td><a href="http://java.sun.com/j2se/1.4/download.html">Java 2 Platform, Standard Edition</a></td>
+</tr>
+<tr>
+<td>3.7</td><td>3rdparty</td><td><a href="http://sourceforge.net/projects/junit/">JUnit Testing Framework</a></td>
+</tr>
+<tr>
+<td>1.0</td><td>3rdparty</td><td><a href="http://www.langdale.com.au/styler/">Styler ANT Task</a></td>
+</tr>
+<tr>
+<td>2.0.11</td><td>3rdparty</td><td><a href="http://sourceforge.net/projects/mmmysql/">MySQL JDBC driver</a></td>
+</tr>
+<tr>
+<td>1.0</td><td>3rdparty</td><td><a href="http://visualdct.cosylab.com/builds/VisualDCT-Common/">VisualDCT-Common</a></td>
+</tr>
+</table>
+</p>
+<h2>Documentation</h2>
+<p>
+<a href="doc/DES-VisualDCT_EPICS_Databases_Hierarchy_Support.html" comment="    This document presents a new EPICS databases hierarchy mechanism used by VisualDCT and it is a proposal for EPICS database model for Base R3.15 and later.    ">VisualDCT EPICS Databases Hierarchy Support</a>
+<p class="warning">    This document presents a new EPICS databases hierarchy mechanism used by VisualDCT and it is a proposal for EPICS database model for Base R3.15 and later.    </p>
+</p>
+<p>
+<a href="doc/DOC-Java_Installation_and_Build_Process_of_VisualDCT.html" comment="    This document is a users guide to installing the Java software necessary to perform builds of VisualDCT project.    The instructions include steps needed to set up Eclipse IDE, 3rd party software and explanation of how Ant build files are used.   ">Java Installation and Build Process of VisualDCT</a>
+<p class="warning">    This document is a users guide to installing the Java software necessary to perform builds of VisualDCT project.    The instructions include steps needed to set up Eclipse IDE, 3rd party software and explanation of how Ant build files are used.   </p>
+</p>
+<p>
+<a href="doc/DOC-VisualDCT_Plugins.html" comment=" This document contains information on writing plugins for VisualDCT and their installation. ">VisualDCT Plugins</a>
+<p class="warning"> This document contains information on writing plugins for VisualDCT and their installation. </p>
+</p>
+<p>
+<a href="doc/MAN-VisualDCT_Graphical_Data_Reference.html" comment="    This document specifies how VisualDCT stores its visual data about graphics layout.   ">VisualDCT Graphical Data Reference</a>
+<p class="warning">    This document specifies how VisualDCT stores its visual data about graphics layout.   </p>
+</p>
+<p>
+<a href="doc/MAN-VisualDCT_Users_Manual.html" comment="    This document is a users manual of how to use VisualDCT and also contains some tips and ticks.   ">VisualDCT User's Manual</a>
+<p class="warning">    This document is a users manual of how to use VisualDCT and also contains some tips and ticks.   </p>
+</p>
+<p>
+<a href="doc/MEM-VisualDCT_Release_Notes.html" comment="    This document is contains release notes of the current build.   ">VisualDCT Release Notes</a>
+<p class="warning">    This document is contains release notes of the current build.   </p>
+</p>
+<p>
+<a href="doc/SPE-VisualDCT_Hierarchy_Additions.html" comment="    This document specifies further additions to the hierarchy mechanism of VisualDCT to be implemented in the future releases.    ">VisualDCT Hierarchy Additions</a>
+<p class="warning">    This document specifies further additions to the hierarchy mechanism of VisualDCT to be implemented in the future releases.    </p>
+</p>
+<p>
+<a href="http://visualdct.cosylab.com" comment="VisualDCT homepage where you can find all related manuals, articles and presentations.">VisualDCT homepage</a>
+<p class="warning">VisualDCT homepage where you can find all related manuals, articles and presentations.</p>
+</p>
+<p>
+<a href="http://visualdct.cosylab.com/builds/VisualDCT-JCADebugPlugin" comment="JCA Debug Plugin is a VisualDCT plugin allowing to display actual values in the control system inside the control boxes for records displayed within VisualDCT.">VisualDCT JCA Debug Plugin homepage</a>
+<p class="warning">JCA Debug Plugin is a VisualDCT plugin allowing to display actual values in the control system inside the control boxes for records displayed within VisualDCT.</p>
+</p>
+<p>
+<a href="doc/api/index.html">API Javadoc</a>
+</p>
+<h2>ChangeLog</h2>
+<p>
+    
+<table>
+      
+<tr>
+        
+<th>ID</th>
+        <th>Subject</th>
+        <th>Action</th>
+      
+</tr>
+    
+</table>
+  
+</p>
+<h2>Files</h2>
+<p>
+    
+<table>
+      
+<tr>
+        
+<th>Filename</th>
+        <th>Size</th>
+        <th>Description</th>
+      
+</tr>
+      
+<tr>
+        
+<td>
+          
+<p>
+<a href="flatdb">flatdb</a>
+</p>
+        
+</td>
+        <td>63B</td>
+        <td></td>
+      
+</tr>
+      
+<tr>
+        
+<td>
+          
+<p>
+<a href="runScript">runScript</a>
+</p>
+        
+</td>
+        <td>99B</td>
+        <td></td>
+      
+</tr>
+      
+<tr>
+        
+<td>
+          
+<p>
+<a href="VisualDCT-doc-2.6.1274.zip">VisualDCT-doc-2.6.1274.zip</a>
+</p>
+        
+</td>
+        <td>1MB</td>
+        <td>Documentation.</td>
+      
+</tr>
+      
+<tr>
+        
+<td>
+          
+<p>
+<a href="VisualDCT-src-2.6.1274.jar">VisualDCT-src-2.6.1274.jar</a>
+</p>
+        
+</td>
+        <td>854KB</td>
+        <td>Sources.</td>
+      
+</tr>
+      
+<tr>
+        
+<td>
+          
+<p>
+<a href="VisualDCT.jar">VisualDCT.jar</a>
+</p>
+        
+</td>
+        <td>708KB</td>
+        <td>Binaries.</td>
+      
+</tr>
+      
+<tr>
+        
+<td>
+          
+<p>
+<a href="VisualDCT-dist-2.6.1274.zip">VisualDCT-dist-2.6.1274.zip</a>
+</p>
+        
+</td>
+        <td>N/A</td>
+        <td>Distribution (src, bin, doc).</td>
+      
+</tr>
+    
+</table>
+  
+</p>
+<h2>Bugzilla</h2>
+<p>
+<a href="http://rt.cosylab.com/Ticket/CreateWithParams.html?Queue=42&SelectedKeywords=@43@21@87@">Submit a bug</a>
+</p>
+<h2>Feature Request List</h2>
+<p>
+<a href="http://rt.cosylab.com/Ticket/CreateWithParams.html?Queue=42&SelectedKeywords=@43@24@87@">Submit a feature request</a>
+</p>
+<p align="center">
+<table border="0" width="100%" background="../XSL/images/Cosylab.png">
+<tr height="25px">
+<td></td>
+</tr>
+</table>
+</p>
+</body>
+</html>

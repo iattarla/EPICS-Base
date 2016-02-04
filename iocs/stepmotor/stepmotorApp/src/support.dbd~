@@ -1,0 +1,8 @@
+include base.dbd      
+include stream.dbd
+include asyn.dbd
+registrar(drvAsynIPPortRegisterCommands)
+registrar(drvAsynSerialPortRegisterCommands)
+
+device(calcout,INST_IO,integer_converter,"converter")
+device(calcout,INST_IO,saveCoordinate,"fileWriter")

@@ -1,0 +1,896 @@
+     [echo] Building project VisualDCT
+     [echo] Software for build process is installed in: ./3rdParty.
+     [echo] Version: 2.6.1274.
+     [echo] Distribution will be created in: /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274.
+     [echo] External classpath is /Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-launcher.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-antlr.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-apache-bcel.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-apache-bsf.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-apache-log4j.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-apache-oro.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-apache-regexp.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-apache-resolver.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-commons-logging.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-commons-net.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-icontract.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-jai.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-javamail.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-jdepend.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-jmf.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-jsch.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-junit.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-netrexx.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-nodeps.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-starteam.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-stylebook.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-swing.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-trax.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-vaj.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-weblogic.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-xalan1.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant-xslp.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/ant.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/junit.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/styler.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/VisualDCT-Common.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/xercesImpl.jar:/Users/msekoranja/Work/apache-ant-1.6.5/lib/xml-apis.jar:/Users/msekoranja/Work/workspace/VisualDCT/3rdParty/Common/junit-3.7/lib/junit.jar.
+    [mkdir] Created dir: /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/temp
+
+compile:
+    [javac] Compiling 343 source files to /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/temp
+
+copyresources:
+    [mkdir] Created dir: /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/temp/docs
+     [copy] Copying 1 file to /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/temp/docs
+    [mkdir] Created dir: /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/temp/images
+     [copy] Copying 36 files to /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/temp/images
+    [mkdir] Created dir: /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/temp/config
+     [copy] Copying 4 files to /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/temp/config
+
+test:
+
+srcjar:
+      [jar] Building jar: /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/VisualDCT-src-2.6.1274.jar
+
+jar:
+      [jar] Building jar: /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/VisualDCT.jar
+
+signjar:
+
+javadoc:
+  [javadoc] Generating Javadoc
+  [javadoc] Javadoc execution
+  [javadoc] Creating destination directory: "/Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/doc/api/"
+  [javadoc] Loading source files for package com.cosylab.vdct...
+  [javadoc] Loading source files for package com.cosylab.vdct.about...
+  [javadoc] Loading source files for package com.cosylab.vdct.db...
+  [javadoc] Loading source files for package com.cosylab.vdct.dbd...
+  [javadoc] Loading source files for package com.cosylab.vdct.events...
+  [javadoc] Loading source files for package com.cosylab.vdct.events.commands...
+  [javadoc] Loading source files for package com.cosylab.vdct.find...
+  [javadoc] Loading source files for package com.cosylab.vdct.graphics...
+  [javadoc] Loading source files for package com.cosylab.vdct.graphics.objects...
+  [javadoc] Loading source files for package com.cosylab.vdct.graphics.popup...
+  [javadoc] Loading source files for package com.cosylab.vdct.graphics.printing...
+  [javadoc] Loading source files for package com.cosylab.vdct.inspector...
+  [javadoc] Loading source files for package com.cosylab.vdct.inspector.sheet...
+  [javadoc] Loading source files for package com.cosylab.vdct.plugin...
+  [javadoc] Loading source files for package com.cosylab.vdct.plugin.config...
+  [javadoc] Loading source files for package com.cosylab.vdct.plugin.debug...
+  [javadoc] Loading source files for package com.cosylab.vdct.plugin.export...
+  [javadoc] Loading source files for package com.cosylab.vdct.plugin.menu...
+  [javadoc] Loading source files for package com.cosylab.vdct.plugin.popup...
+  [javadoc] Loading source files for package com.cosylab.vdct.plugins...
+  [javadoc] Loading source files for package com.cosylab.vdct.print.postscript...
+  [javadoc] Loading source files for package com.cosylab.vdct.rdb...
+  [javadoc] Loading source files for package com.cosylab.vdct.undo...
+  [javadoc] Loading source files for package com.cosylab.vdct.util...
+  [javadoc] Loading source files for package com.cosylab.vdct.vdb...
+  [javadoc] Loading source files for package com.cosylab.vdct.xml...
+  [javadoc] Constructing Javadoc information...
+  [javadoc] Standard Doclet version 1.5.0_16
+  [javadoc] Building tree for all the packages and classes...
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/DBDDialog.java:62: warning - @author: is an unknown tag.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/DBDDialog.java:162: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/NameChecker.java:63: warning - @param argument "oldNameField" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginListener.java:44: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginListener.java:44: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginListener.java:51: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginListener.java:51: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/RecentFilesMenu.java:93: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/RecentFilesMenu.java:104: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/RecentFilesMenu.java:114: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/RecentFilesMenu.java:93: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/RecentFilesMenu.java:104: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/RecentFilesMenu.java:114: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:588: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:595: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:463: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:470: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:524: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:405: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:425: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:540: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:661: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:675: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:547: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:554: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:508: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:445: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:602: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:609: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:668: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:709: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/Settings.java:304: warning - @param argument "char" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/VisualDCT.java:7865: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/VisualDCT.java:7517: warning - @param argument "groupName" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/VisualDCTDocument.java:43: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/AboutDialog.java:36: warning - @author: is an unknown tag.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/AboutDialog.java:311: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTabReceiver#AddTab(AboutTab)
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/AboutDialog.java:318: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTabReceiver#ReceiverPerform()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/AboutDialogEngine.java:36: warning - @author: is an unknown tag.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/AboutDialogEngine.java:62: warning - @param argument "newTabs" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/AboutTabPanel.java:70: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTab#getPanel()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/LicenseTabPanel.java:66: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTabPanel#initializePanel()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/LicenseTabPanel.java:102: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTabPanel#processData()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/LicenseTabPanel.java:251: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTab#getPanel()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/ProgramTabPanel.java:482: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTabPanel#initializePanel()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/ProgramTabPanel.java:533: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTabPanel#processData()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/ProgramTabPanel.java:582: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTab#getPanel()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/SystemTabPanel.java:71: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTabPanel#initializePanel()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/AboutTabPanel.java:70: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTab#getPanel()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/SystemTabPanel.java:381: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTabPanel#processData()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTAboutDialogEngine.java:29: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutDialogEngine#initializeReceiver()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTAboutDialogEngine.java:65: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutDialogEngine#perform()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTLicenseTabModel.java:58: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTabModel#aquireData()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTProgramTabModel.java:59: warning - Tag @see: reference not found: com.cosylab.gui.components.about.ProgramTabModel#getProductBuild()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTProgramTabModel.java:67: warning - Tag @see: reference not found: com.cosylab.gui.components.about.ProgramTabModel#getProductBuildDate()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTProgramTabModel.java:75: warning - Tag @see: reference not found: com.cosylab.gui.components.about.ProgramTabModel#getProductDocsURL()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTProgramTabModel.java:89: warning - Tag @see: reference not found: com.cosylab.gui.components.about.ProgramTabModel#getProductLogoImage()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTProgramTabModel.java:103: warning - Tag @see: reference not found: com.cosylab.gui.components.about.ProgramTabModel#getProductName()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTProgramTabModel.java:111: warning - Tag @see: reference not found: com.cosylab.gui.components.about.ProgramTabModel#getProductURL()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTProgramTabModel.java:125: warning - Tag @see: reference not found: com.cosylab.gui.components.about.ProgramTabModel#getProductVersion()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTProgramTabModel.java:133: warning - Tag @see: reference not found: com.cosylab.gui.components.about.ProgramTabModel#getVendor()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTProgramTabModel.java:141: warning - Tag @see: reference not found: com.cosylab.gui.components.about.ProgramTabModel#getVendorEmail()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTProgramTabModel.java:149: warning - Tag @see: reference not found: com.cosylab.gui.components.about.ProgramTabModel#getVendorURL()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTProgramTabModel.java:163: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTabModel#aquireData()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTSystemTabModel.java:53: warning - Tag @see: reference not found: com.cosylab.gui.components.about.SystemTabModel#getSystemProperties()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/about/VisualDCTSystemTabModel.java:60: warning - Tag @see: reference not found: com.cosylab.gui.components.about.AboutTabModel#aquireData()
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBConnectorData.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBData.java:336: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBData.java:121: warning - @param argument "ld" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBData.java:130: warning - @param argument "ld" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBData.java:139: warning - @param argument "ld" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBData.java:161: warning - @param argument "rd" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBData.java:174: warning - @param argument "rd" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBMacro.java:219: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBPort.java:252: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBRecordData.java:172: warning - @param argument "newDescriprion" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBResolver.java:199: warning - @param argument "fileName" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBResolver.java:217: warning - @param argument "st" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBResolver.java:296: warning - @param argument "rootData" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBResolver.java:1266: warning - @param argument "rootData" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBResolver.java:1477: warning - @param argument "rootData" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBResolver.java:1683: warning - @param argument "rd" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBResolver.java:1740: warning - @param argument "rd" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBResolver.java:1960: warning - @param argument "fileName" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBResolver.java:2004: warning - @param argument "fileName" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBResolver.java:2016: warning - @param argument "fileName" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBSheetRowOrder.java:96: warning - @param argument "ascending" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBTemplateField.java:61: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBTemplateField.java:75: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBTemplateField.java:82: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBTemplateField.java:68: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBTemplateInstance.java:186: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBTemplateInstance.java:84: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBTextBox.java:146: warning - @param argument "dashed" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBView.java:50: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBView.java:57: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/db/DBView.java:64: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/dbd/DBDData.java:237: warning - @returncom.cosylab.vdct.dbd.DBDRecordData is an unknown tag.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/dbd/DBDResolver.java:227: warning - @param argument "st" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/dbd/DBDResolver.java:562: warning - @param argument "fileName" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/EventManager.java:68: warning - @param argument "subscriber" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/EventManager.java:79: warning - @param argument "subscriber" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/GetGUIInterface.java:38: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/GetGUIInterface.java:45: warning - @param argument "validator" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/GetPrintableInterface.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/GetPrintableInterface.java:46: warning - @param argument "printable" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/GetVDBManager.java:38: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/GetVDBManager.java:45: warning - @param argument "validator" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/LinkCommand.java:54: warning - @param argument "drawingSurface" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/LinkCommand.java:70: warning - @param argument "record" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/SetRedoMenuItemState.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/SetUndoMenuItemState.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/SetWorkspaceGroup.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/SetWorkspaceScale.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/ShowMorphingDialog.java:78: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/ShowMorphingDialog.java:64: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/ShowNewDialog.java:40: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/events/commands/ShowRenameDialog.java:40: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/find/FindPanel.java:298: warning - @param argument "root" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/BorderDecorator.java:38: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/DrawingSurface.java:3679: warning - @param argument "scale" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/DrawingSurface.java:3962: warning - @param argument "template" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/DrawingSurface.java:4133: warning - @param argument "name" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/DrawingSurface.java:4164: warning - @param argument "name" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/DrawingSurface.java:4273: warning - @param argument "pressedMousePosValid" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/TransparentTextField.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/VDBInterface.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/VDBInterface.java:62: warning - @param argument "name" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/VDBInterface.java:62: warning - @param argument "type" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/VDBInterface.java:62: warning - @param argument "relative" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Border.java:54: warning - @param argument "parent" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Descriptable.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/VisibleObject.java:563: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/VisibleObject.java:573: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Field.java:226: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Group.java:1119: warning - @param argument "path2remove" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Group.java:1476: warning - @param argument "path2remove" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Group.java:1499: warning - @param argument "path2remove" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Group.java:2229: warning - @param argument "linkableMacros" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Group.java:2249: warning - @param argument "settingsChanged" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/LinkDrawer.java:63: warning - @param argument "com.cosylab.vdct.graphics.objects.OutLink" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/LinkDrawer.java:63: warning - @param argument "com.cosylab.vdct.graphics.objects.InLink" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/LinkDrawer.java:141: warning - @param argument "com.cosylab.vdct.graphics.objects.OutLink" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/LinkDrawer.java:141: warning - @param argument "com.cosylab.vdct.graphics.objects.InLink" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/LinkDrawer.java:654: warning - @param argument "com.cosylab.vdct.graphics.objects.OutLink" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/LinkDrawer.java:654: warning - @param argument "com.cosylab.vdct.graphics.objects.InLink" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/LinkManagerObject.java:798: warning - @param argument "linkableMacros" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/LinkManagerObject.java:798: warning - @param argument "deep" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/LinkManagerObject.java:934: warning - @param argument "field" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/VisibleObject.java:583: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Macro.java:986: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/MultiInLink.java:38: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/NamingContext.java:127: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/NamingContext.java:250: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/NamingContext.java:289: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/NamingContext.java:94: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/NamingContext.java:86: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/NamingContext.java:63: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/NamingContext.java:192: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/NamingContext.java:78: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/NamingContext.java:329: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/NamingContext.java:228: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/NamingContext.java:104: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/NamingContext.java:150: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/NamingContext.java:205: warning - @param argument "string" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Port.java:878: warning - Tag @see: can't find getProperties(int) in com.cosylab.vdct.inspector.Inspectable
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Record.java:281: warning - @param argument "e" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Record.java:1854: warning - @param argument "linkableMacros" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Record.java:1854: warning - @param argument "deep" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/SaveInterface.java:46: warning - @param argument "namer" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/SaveInterface.java:54: warning - @param argument "namer" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Template.java:1530: warning - Tag @see: can't find copyToGroup(String) in com.cosylab.vdct.graphics.objects.Flexible
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Template.java:1663: warning - Tag @see: can't find moveToGroup(String) in com.cosylab.vdct.graphics.objects.Flexible
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Template.java:1712: warning - Tag @see: can't find rename(String) in com.cosylab.vdct.graphics.objects.Flexible
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Template.java:1784: warning - Tag @see: can't find writeObjects(DataOutputStream, String) in com.cosylab.vdct.graphics.objects.SaveInterface
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Template.java:2040: warning - Tag @see: can't find writeVDCTData(DataOutputStream, String) in com.cosylab.vdct.graphics.objects.SaveInterface
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Template.java:1609: warning - @param argument "e" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Template.java:2059: warning - @param argument "linkableMacros" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Template.java:2059: warning - @param argument "deep" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Template.java:2109: warning - @param argument "field" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Template.java:2109: warning - @param argument "oldValue" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/Template.java:2109: warning - @param argument "newValue" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/TemplateEPICSLink.java:43: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/TemplateEPICSLink.java:51: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/TemplateEPICSMacro.java:540: warning - Tag @see: can't find isVisible() in com.cosylab.vdct.graphics.objects.TemplateEPICSLink
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/TemplateEPICSMacro.java:102: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/TemplateEPICSMacro.java:523: warning - @param argument "visibile" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/TemplateEPICSPort.java:407: warning - Tag @see: can't find isVisible() in com.cosylab.vdct.graphics.objects.TemplateEPICSLink
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/TemplateEPICSPort.java:86: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/TemplateEPICSPort.java:399: warning - @param argument "visibile" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/VisibleObject.java:591: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/VisibleObject.java:553: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/ZoomPane.java:181: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/ZoomPane.java:64: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/ZoomPane.java:73: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/ZoomPane.java:82: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/ZoomPane.java:173: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/objects/ZoomPane.java:94: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/popup/PopUpMenu.java:92: warning - @param argument "menuItem" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/graphics/printing/Page.java:41: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/inspector/InspectableProperty.java:142: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/inspector/InspectableProperty.java:148: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/inspector/InspectableProperty.java:131: warning - @param argument "java.awt.Component" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/inspector/InspectorCellEditor.java:367: warning - @param argument "textField" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/inspector/InspectorManager.java:219: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/inspector/InspectorManager.java:245: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/inspector/InspectorTableModel.java:159: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/inspector/sheet/SplitPropertyGroup.java:63: warning - @param argument "splitPattern" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/inspector/sheet/SplitPropertyGroup.java:72: warning - @param argument "splitPattern" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:44: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:44: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:63: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:63: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:76: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:76: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:83: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:83: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:90: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:90: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:44: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:44: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:63: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:76: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:76: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:83: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:83: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:90: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/Plugin.java:90: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginListener.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginListener.java:44: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginListener.java:44: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginListener.java:51: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginListener.java:51: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:76: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:76: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:95: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:95: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:109: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:109: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:127: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:127: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:167: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:167: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:65: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:205: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:205: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:223: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:223: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:233: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:233: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:76: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:76: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:95: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:95: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:109: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:109: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:127: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:127: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:167: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:205: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:205: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:223: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:223: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:233: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginManager.java:233: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:79: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:92: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:92: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:102: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:102: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:126: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:126: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:148: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:148: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:161: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:161: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:183: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:183: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:205: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:205: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:215: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:215: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:225: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:225: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:248: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:248: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:261: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:261: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:289: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:289: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:323: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:323: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:348: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:348: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:378: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:378: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:403: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:403: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:425: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:425: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:79: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:92: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:92: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:102: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:102: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:126: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:148: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:161: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:183: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:205: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:215: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:225: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:248: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:261: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:261: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:289: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:323: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:348: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:348: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:378: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:378: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:403: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:403: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:425: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginObject.java:425: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginSerializer.java:44: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginSerializer.java:44: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginSerializer.java:50: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginSerializer.java:44: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginSerializer.java:44: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginSerializer.java:50: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginsMenu.java:228: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginsMenu.java:245: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginsMenu.java:261: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginsMenu.java:228: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginsMenu.java:245: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginsMenu.java:261: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginUIManager.java:64: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginUIManager.java:64: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginUIManager.java:75: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginUIManager.java:75: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginUIManager.java:86: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginUIManager.java:86: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginUIManager.java:64: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginUIManager.java:64: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginUIManager.java:75: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginUIManager.java:75: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginUIManager.java:86: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginUIManager.java:86: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginXMLSerializer.java:56: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginXMLSerializer.java:85: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginXMLSerializer.java:56: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/PluginXMLSerializer.java:85: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/config/PluginLinkTypeConfigManager.java:71: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/config/PluginLinkTypeConfigManager.java:71: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/config/PluginLinkTypeConfigManager.java:94: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/config/PluginLinkTypeConfigManager.java:94: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/config/PluginLinkTypeConfigManager.java:108: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/config/PluginLinkTypeConfigManager.java:108: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/config/PluginLinkTypeConfigManager.java:71: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/config/PluginLinkTypeConfigManager.java:71: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/config/PluginLinkTypeConfigManager.java:94: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/config/PluginLinkTypeConfigManager.java:94: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/config/PluginLinkTypeConfigManager.java:108: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/config/PluginLinkTypeConfigManager.java:108: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/DebugStartMenu.java:305: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/DebugStartMenu.java:325: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/DebugStartMenu.java:348: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/DebugStartMenu.java:305: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/DebugStartMenu.java:325: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/DebugStartMenu.java:348: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/DebugStopMenuItem.java:47: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/DebugStopMenuItem.java:47: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/PluginDebugManager.java:104: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/PluginDebugManager.java:104: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/PluginDebugManager.java:122: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/PluginDebugManager.java:122: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/PluginDebugManager.java:139: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/PluginDebugManager.java:139: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/PluginDebugManager.java:104: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/PluginDebugManager.java:104: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/PluginDebugManager.java:122: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/PluginDebugManager.java:122: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/PluginDebugManager.java:139: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/debug/PluginDebugManager.java:139: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/ExportMenu.java:159: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/ExportMenu.java:179: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/ExportMenu.java:202: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/ExportMenu.java:159: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/ExportMenu.java:179: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/ExportMenu.java:202: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/PluginExportManager.java:70: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/PluginExportManager.java:70: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/PluginExportManager.java:88: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/PluginExportManager.java:88: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/PluginExportManager.java:102: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/PluginExportManager.java:102: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/PluginExportManager.java:70: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/PluginExportManager.java:70: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/PluginExportManager.java:88: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/PluginExportManager.java:88: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/PluginExportManager.java:102: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/export/PluginExportManager.java:102: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/PluginMenuManager.java:73: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/PluginMenuManager.java:73: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/PluginMenuManager.java:91: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/PluginMenuManager.java:91: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/PluginMenuManager.java:105: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/PluginMenuManager.java:105: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/PluginMenuManager.java:73: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/PluginMenuManager.java:73: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/PluginMenuManager.java:91: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/PluginMenuManager.java:91: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/PluginMenuManager.java:105: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/PluginMenuManager.java:105: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/ToolsMenu.java:48: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/ToolsMenu.java:68: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/ToolsMenu.java:90: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/ToolsMenu.java:48: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/ToolsMenu.java:68: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/menu/ToolsMenu.java:90: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/popup/PluginPopupManager.java:74: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/popup/PluginPopupManager.java:74: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/popup/PluginPopupManager.java:93: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/popup/PluginPopupManager.java:93: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/popup/PluginPopupManager.java:107: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/popup/PluginPopupManager.java:107: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/popup/PluginPopupManager.java:74: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/popup/PluginPopupManager.java:74: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/popup/PluginPopupManager.java:93: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/popup/PluginPopupManager.java:93: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/popup/PluginPopupManager.java:107: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugin/popup/PluginPopupManager.java:107: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:97: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:97: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:127: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:127: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:148: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:148: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:176: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:176: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:186: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:186: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:97: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:97: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:127: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:148: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:148: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:176: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:176: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:186: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ApplicationRunnerPlugin.java:186: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:175: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:175: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:199: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:199: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:216: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:216: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:223: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:223: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:230: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:230: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:175: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:175: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:199: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:216: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:216: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:223: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:223: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:230: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/CosyBeansPlugin.java:230: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:88: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:88: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:114: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:114: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:140: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:140: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:217: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:217: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:236: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:236: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:88: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:88: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:114: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:140: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:140: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:217: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:217: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:236: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/DebugSimulator.java:236: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:45: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:45: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:76: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:76: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:93: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:93: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:100: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:100: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:107: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:107: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:45: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:45: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:76: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:93: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:93: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:100: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:100: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:107: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/ExportSimulator.java:107: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:108: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:108: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:132: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:132: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:149: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:149: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:156: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:156: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:163: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:163: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:108: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:108: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:132: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:149: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:149: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:156: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:156: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:163: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/MenuPluginExample.java:163: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:80: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:80: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:104: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:104: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:121: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:121: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:128: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:128: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:135: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:135: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:80: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:80: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:104: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:121: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:121: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:128: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:128: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:135: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/plugins/PopupPluginRecordHandlerExample.java:135: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/print/postscript/PSGr.java:246: warning - Tag @see: can't find rotate in com.cosylab.vdct.print.postscript.PSGr
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/print/postscript/PSGr.java:227: warning - Tag @see: can't find rotate in com.cosylab.vdct.print.postscript.PSGr
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/print/postscript/PSGr.java:84: warning - @param argument "g" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/print/postscript/PSGr.java:116: warning - @param argument "g" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/print/postscript/PSGr.java:116: warning - @param argument "margin" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/print/postscript/PSGr.java:116: warning - @param argument "margin" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/print/postscript/PSGr.java:339: warning - @param argument "font" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/print/postscript/PSGr.java:464: warning - Tag @see: reference not found: getClipBounds
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/print/postscript/PSGr.java:940: warning - @param argument "str" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/rdb/NewRdbDataDialog.java:76: warning - @param argument "arg0" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/rdb/NewRdbDataDialog.java:76: warning - @param argument "arg1" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/rdb/RdbDataChooserDialog.java:64: warning - @param argument "arg0" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/rdb/RdbDataChooserDialog.java:64: warning - @param argument "arg1" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/ChangeTemplatePropertyAction.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/CommentChangeAction.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/CommentChangeAction.java:48: warning - @param argument "field" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/ComposedAction.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/ComposedActionInterface.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/CreateAction.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/CreateAction.java:47: warning - @param argument "x" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/CreateAction.java:47: warning - @param argument "y" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/CreateTemplateMacroAction.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/CreateTemplatePortAction.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/CreateTemplatePropertyAction.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/DeleteAction.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/DeleteConnectorAction.java:42: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/DeleteConnectorAction.java:57: warning - @param argument "x" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/DeleteConnectorAction.java:57: warning - @param argument "y" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/DeleteTemplateMacroAction.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/DeleteTemplatePortAction.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/DeleteTemplatePropertyAction.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/DescriptionChangeAction.java:38: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/DescriptionChangeAction.java:50: warning - @param argument "objectDescriptable" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/FieldValueChangeAction.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/MacroValueChangeAction.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/MacroValueChangeAction.java:48: warning - @param argument "field" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/MorphAction.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/MorphAction.java:51: warning - @param argument "oldName" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/MorphAction.java:51: warning - @param argument "newName" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/MorphTemplateAction.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/MorphTemplateAction.java:51: warning - @param argument "oldName" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/MorphTemplateAction.java:51: warning - @param argument "newName" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/MoveFieldDownAction.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/MoveFieldUpAction.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/MoveToGroupAction.java:38: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/PortValueChangeAction.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/PortValueChangeAction.java:48: warning - @param argument "field" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/RenameAction.java:38: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/RenameTemplateMacroAction.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/undo/RenameTemplatePortAction.java:39: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/ChoiceUtils.java:36: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/ComboBoxFileChooserDialog.java:126: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/ComboBoxFileChooserDialog.java:133: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/DBDEntry.java:129: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/DBDEntry.java:86: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/DBDEntry.java:52: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/DBDEntry.java:191: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/DBDEntry.java:137: warning - @param argument "string" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/DoubleClickProxy.java:164: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/DoubleClickProxy.java:171: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/HashtableUtils.java:42: warning - @param argument "obj" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/PathSpecification.java:177: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/StringUtils.java:77: warning - @param argument "newFN" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/StringUtils.java:155: warning - @param argument "str" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/StringUtils.java:155: warning - @param argument "s1" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/StringUtils.java:155: warning - @param argument "s2" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/StringUtils.java:244: warning - @param argument "str" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/UniversalFileFilter.java:132: warning - Tag @see: can't find accepts in javax.swing.filechooser.FileFilter
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/UniversalFileFilter.java:172: warning - Tag @see: reference not found: setDescription
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/UniversalFileFilter.java:172: warning - Tag @see: reference not found: setExtensionListInDescription
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/UniversalFileFilter.java:172: warning - Tag @see: reference not found: isExtensionListInDescription
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/UniversalFileFilter.java:218: warning - Tag @see: reference not found: getDescription
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/UniversalFileFilter.java:218: warning - Tag @see: reference not found: setDescription
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/UniversalFileFilter.java:218: warning - Tag @see: reference not found: setExtensionListInDescription
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/UniversalFileFilter.java:229: warning - Tag @see: reference not found: setDescription
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/UniversalFileFilter.java:229: warning - Tag @see: reference not found: setExtensionListInDescription
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/UniversalFileFilter.java:229: warning - Tag @see: reference not found: isExtensionListInDescription
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/UniversalFileFilter.java:244: warning - Tag @see: reference not found: getDescription
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/UniversalFileFilter.java:244: warning - Tag @see: reference not found: setDescription
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/util/UniversalFileFilter.java:244: warning - Tag @see: reference not found: isExtensionListInDescription
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/CommentProperty.java:43: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/CommentProperty.java:236: warning - @param argument "java.awt.Component" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/FieldInfoProperty.java:168: warning - @param argument "java.awt.Component" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/GUIHeader.java:40: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/GUIHeader.java:175: warning - @param argument "java.awt.Component" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/GUISeparator.java:37: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/MacroDescriptionProperty.java:172: warning - Tag @see: can't find toString(String) in com.cosylab.vdct.inspector.InspectableProperty
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/MonitoredActionProperty.java:168: warning - @param argument "java.awt.Component" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/MonitoredProperty.java:180: warning - @param argument "java.awt.Component" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/NameProperty.java:51: warning - @param argument "value" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/NameValueInfoProperty.java:165: warning - @param argument "java.awt.Component" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/PortDescriptionProperty.java:172: warning - Tag @see: can't find toString(String) in com.cosylab.vdct.inspector.InspectableProperty
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/ROProperty.java:40: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/ROProperty.java:174: warning - @param argument "java.awt.Component" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:107: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:92: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:116: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:129: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:92: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:107: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:116: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:129: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:146: warning - @param argument "dbd" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:146: warning - @param argument "dbRecord" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:146: warning - @param argument "dbdField" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:161: warning - @param argument "dbd" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:161: warning - @param argument "dbRecord" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:161: warning - @param argument "dbdField" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:161: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:191: warning - @param argument "dbd" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:191: warning - @param argument "dbRecord" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:674: warning - @param argument "dbRecord" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:768: warning - @param argument "record" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBData.java:776: warning - @param argument "record" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBFieldData.java:519: warning - @param argument "java.awt.Component" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBMacro.java:140: warning - @param argument "target" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBPort.java:146: warning - @param argument "target" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBRecordData.java:64: warning - @param argument "dbd" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBTemplateInstance.java:146: warning - @param argument "s" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/vdb/VDBTemplatePort.java:170: warning - @param argument "value" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:48: warning - @author tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:56: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:56: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:69: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:69: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:150: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:150: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:163: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:163: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:176: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:176: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:195: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:195: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:205: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:205: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:215: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:215: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:225: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:225: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:235: warning - @param tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:235: warning - @return tag has no arguments.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:56: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:56: warning - @return tag cannot be used in method with void return type.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:69: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:150: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:163: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:176: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:195: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:205: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:215: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:225: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:235: warning - @param argument "" is not a parameter name.
+  [javadoc] /Users/msekoranja/Work/workspace/VisualDCT/src/com/cosylab/vdct/xml/XMLManager.java:235: warning - @return tag cannot be used in method with void return type.
+  [javadoc] Building index for all the packages and classes...
+  [javadoc] Building index for all classes...
+  [javadoc] Generating /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/doc/api/stylesheet.css...
+  [javadoc] 700 warnings
+
+doc:
+running the styler task
+source file is DES-VisualDCT_EPICS_Databases_Hierarchy_Support.xml
+source file is DOC-Java_Installation_and_Build_Process_of_VisualDCT.xml
+source file is DOC-VisualDCT_Plugins.xml
+source file is MAN-VisualDCT_Graphical_Data_Reference.xml
+source file is MAN-VisualDCT_Users_Manual.xml
+source file is MEM-VisualDCT_Release_Notes.xml
+source file is SPE-VisualDCT_Hierarchy_Additions.xml
+     [copy] Copying 25 files to /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/doc
+
+docjar:
+      [zip] Building zip: /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/VisualDCT-doc-2.6.1274.zip
+
+web:
+     [copy] Copying 1 file to /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274
+     [copy] Copying 1 file to /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274
+   [webdoc] Project version: 2.6.1274
+   [webdoc] Found developer 'Matej Sekoranja'.
+   [webdoc] Found developer 'Jaka Bobnar'.
+   [webdoc] Found developer 'Sunil Sah'.
+   [webdoc] Found external jar dependency: Java 2 Platform, Standard Edition
+   [webdoc] Found external jar dependency: JUnit Testing Framework
+   [webdoc] Found external jar dependency: Styler ANT Task
+   [webdoc] Found external jar dependency: MySQL JDBC driver
+   [webdoc] Found external jar dependency: VisualDCT-Common
+   [webdoc] Added news: msekoranja: VisualDCT ported to Eclipse and Ant builds.
+   [webdoc] Added news: msekoranja: Package A implemented.
+   [webdoc] Added news: msekoranja: Package B alpha integration build available.
+   [webdoc] Added news: msekoranja: Package C (full graphical hierarchy support) release candidate.
+   [webdoc] Added news: msekoranja: Minor bugfixes, debug plugin support.
+   [webdoc] Added news: msekoranja: CapFast interoperability, minor bugfixes.
+   [webdoc] Added news: msekoranja: Package D1 release candidate.
+   [webdoc] Added news: msekoranja: Package D2 pre-release.
+   [webdoc] Added news: msekoranja: Package D2 release.
+   [webdoc] Added news: msekoranja: Package F release.
+   [webdoc] Added news: msekoranja: Package E release.
+   [webdoc] Added news: msekoranja: Package F2 release.
+   [webdoc] Found document: VisualDCT EPICS Databases Hierarchy Support
+   [webdoc] Found document: Java Installation and Build Process of VisualDCT
+   [webdoc] Found document: VisualDCT Plugins
+   [webdoc] Found document: VisualDCT Graphical Data Reference
+   [webdoc] Found document: VisualDCT User's Manual
+   [webdoc] Found document: VisualDCT Release Notes
+   [webdoc] Found document: VisualDCT Hierarchy Additions
+   [webdoc] Cosydoc results: Found 7 cosydocs, skipped 0 because of nonconformance.
+   [webdoc] Found additional document: VisualDCT homepage
+   [webdoc] Found additional document: VisualDCT JCA Debug Plugin homepage
+   [webdoc] Javadoc presence status: true
+   [webdoc] Found file: flatdb
+   [webdoc] Found file: runScript
+   [webdoc] Found file: VisualDCT-doc-2.6.1274.zip
+   [webdoc] Found file: VisualDCT-src-2.6.1274.jar
+   [webdoc] Found file: VisualDCT.jar
+   [webdoc] Search result: Found 5 files, skipped 3.
+   [webdoc] Added file: VisualDCT-dist-2.6.1274.zip
+   [webdoc] Null text data??
+   [webdoc] Null text data??
+running the styler task
+source file is index.xml
+[projectwebdoc] Project version: 2.6.1274
+[projectwebdoc] Found developer 'Matej Sekoranja'.
+[projectwebdoc] Found developer 'Jaka Bobnar'.
+[projectwebdoc] Found developer 'Sunil Sah'.
+[projectwebdoc] Found build: 2.1.1234/index.html
+[projectwebdoc] Found build: 2.1.1235/index.html
+[projectwebdoc] Found build: 2.2.1236/index.html
+[projectwebdoc] Found build: 2.3.1237/index.html
+[projectwebdoc] Found build: 2.3.1238/index.html
+[projectwebdoc] Found build: 2.3.1240/index.html
+[projectwebdoc] Found build: 2.3.1241/index.html
+[projectwebdoc] Found build: 2.3.1242/index.html
+[projectwebdoc] Found build: 2.4.1244/index.html
+[projectwebdoc] Found build: 2.4.1245/index.html
+[projectwebdoc] Found build: 2.4.1246/index.html
+[projectwebdoc] Found build: 2.4.1247/index.html
+[projectwebdoc] Found build: 2.4.1248/index.html
+[projectwebdoc] Found build: 2.4.1249/index.html
+[projectwebdoc] Found build: 2.4.1250/index.html
+[projectwebdoc] Found build: 2.4.1256/index.html
+[projectwebdoc] Found build: 2.4.1257/index.html
+[projectwebdoc] Found build: 2.5.1271/index.html
+[projectwebdoc] Found build: 2.6.1274/index.html
+[projectwebdoc] Found external jar dependency: Java 2 Platform, Standard Edition
+[projectwebdoc] Found external jar dependency: JUnit Testing Framework
+[projectwebdoc] Found external jar dependency: Styler ANT Task
+[projectwebdoc] Found external jar dependency: MySQL JDBC driver
+[projectwebdoc] Found external jar dependency: VisualDCT-Common
+[projectwebdoc] Added news: msekoranja: VisualDCT ported to Eclipse and Ant builds.
+[projectwebdoc] Added news: msekoranja: Package A implemented.
+[projectwebdoc] Added news: msekoranja: Package B alpha integration build available.
+[projectwebdoc] Added news: msekoranja: Package C (full graphical hierarchy support) release candidate.
+[projectwebdoc] Added news: msekoranja: Minor bugfixes, debug plugin support.
+[projectwebdoc] Added news: msekoranja: CapFast interoperability, minor bugfixes.
+[projectwebdoc] Added news: msekoranja: Package D1 release candidate.
+[projectwebdoc] Added news: msekoranja: Package D2 pre-release.
+[projectwebdoc] Added news: msekoranja: Package D2 release.
+[projectwebdoc] Added news: msekoranja: Package F release.
+[projectwebdoc] Added news: msekoranja: Package E release.
+[projectwebdoc] Added news: msekoranja: Package F2 release.
+[projectwebdoc] Found document: VisualDCT EPICS Databases Hierarchy Support
+[projectwebdoc] Found document: Java Installation and Build Process of VisualDCT
+[projectwebdoc] Found document: VisualDCT Plugins
+[projectwebdoc] Found document: VisualDCT Graphical Data Reference
+[projectwebdoc] Found document: VisualDCT User's Manual
+[projectwebdoc] Found document: VisualDCT Release Notes
+[projectwebdoc] Found document: VisualDCT Hierarchy Additions
+[projectwebdoc] Cosydoc results: Found 7 cosydocs, skipped 0 because of nonconformance.
+[projectwebdoc] Found additional document: VisualDCT homepage
+[projectwebdoc] Found additional document: VisualDCT JCA Debug Plugin homepage
+[projectwebdoc] Javadoc presence status: true
+[projectwebdoc] Found file: flatdb
+[projectwebdoc] Found file: runScript
+[projectwebdoc] Found file: VisualDCT-doc-2.6.1274.zip
+[projectwebdoc] Found file: VisualDCT-src-2.6.1274.jar
+[projectwebdoc] Found file: VisualDCT.jar
+[projectwebdoc] Search result: Found 5 files, skipped 5.
+[projectwebdoc] Added file: 2.6.1274/VisualDCT-dist-2.6.1274.zip
+[projectwebdoc] Null text data??
+[projectwebdoc] Null text data??
+running the styler task
+source file is index.xml
+     [move] Moving 1 file to /Users/msekoranja/vdct/visualdct/builds/VisualDCT
+   [delete] Deleting: /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/index.xml
+
+doall:
+
+cleanup:
+   [delete] Deleting directory /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/temp
+      [zip] Building zip: /Users/msekoranja/vdct/visualdct/builds/VisualDCT/2.6.1274/VisualDCT-dist-2.6.1274.zip

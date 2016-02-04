@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Export-Package: org.python,org.python.antlr.base,org.python.core,org.p
+ ython.util
+Bundle-Vendor: Kay Kasemir <kasemirk@ornl.gov> - SNS
+Bundle-ClassPath: jython.jar
+Bundle-Version: 2.5.2.20140409
+Bundle-Name: Python (Jython) support
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.python
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

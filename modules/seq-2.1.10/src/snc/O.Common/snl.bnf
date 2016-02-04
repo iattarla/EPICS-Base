@@ -1,0 +1,228 @@
+// Reprint of input file "../snl.lem".
+// Symbols:
+//   0 $                  47 RBRACE             94 exit             
+//   1 EQUAL              48 ASSIGN             95 c_codes          
+//   2 ADDEQ              49 CONNECT            96 string           
+//   3 SUBEQ              50 TO                 97 global_defn      
+//   4 ANDEQ              51 COMMA              98 assign           
+//   5 OREQ               52 MONITOR            99 monitor          
+//   6 DIVEQ              53 SYNC              100 sync             
+//   7 MULEQ              54 SYNCQ             101 syncq            
+//   8 MODEQ              55 INTCON            102 declaration      
+//   9 LSHEQ              56 CHAR              103 option           
+//  10 RSHEQ              57 SHORT             104 c_code           
+//  11 XOREQ              58 INT               105 connect          
+//  12 QUESTION           59 LONG              106 variable         
+//  13 COLON              60 UNSIGNED          107 to               
+//  14 OROR               61 INT8T             108 subscript        
+//  15 ANDAND             62 UINT8T            109 strings          
+//  16 VBAR               63 INT16T            110 opt_subscript    
+//  17 CARET              64 UINT16T           111 event_flag       
+//  18 AMPERSAND          65 INT32T            112 syncq_size       
+//  19 EQ                 66 UINT32T           113 type             
+//  20 NE                 67 FLOAT             114 init_declarators 
+//  21 GT                 68 DOUBLE            115 init_declarator  
+//  22 GE                 69 STRING            116 declarator       
+//  23 LE                 70 EVFLAG            117 init_expr        
+//  24 LT                 71 FOREIGN           118 direct_declarator
+//  25 LSHIFT             72 OPTION            119 init_exprs       
+//  26 RSHIFT             73 SS                120 expr             
+//  27 ADD                74 STATE             121 option_value     
+//  28 SUB                75 ENTRY             122 state_set        
+//  29 ASTERISK           76 EXIT              123 ss_defns         
+//  30 SLASH              77 WHEN              124 states           
+//  31 MOD                78 BREAK             125 ss_defn          
+//  32 NOT                79 CONTINUE          126 state            
+//  33 INCR               80 IF                127 state_defns      
+//  34 DECR               81 ELSE              128 whens            
+//  35 PRE                82 WHILE             129 state_defn       
+//  36 LBRACKET           83 FOR               130 block            
+//  37 RBRACKET           84 FPCON             131 when             
+//  38 POINTER            85 TILDE             132 opt_expr         
+//  39 PERIOD             86 STRCON            133 block_defns      
+//  40 POST               87 CCODE             134 statements       
+//  41 PROGRAM            88 error             135 block_defn       
+//  42 NAME               89 program           136 statement        
+//  43 LPAREN             90 program_param     137 comma_expr       
+//  44 RPAREN             91 global_defns      138 for_statement    
+//  45 SEMICOLON          92 entry             139 args             
+//  46 LBRACE             93 state_sets       
+program ::= PROGRAM NAME program_param global_defns entry state_sets exit c_codes.
+program_param ::= LPAREN string RPAREN.
+program_param ::=.
+global_defns ::= global_defns global_defn.
+global_defns ::=.
+global_defn ::= assign.
+global_defn ::= monitor.
+global_defn ::= sync.
+global_defn ::= syncq.
+global_defn ::= declaration.
+global_defn ::= option.
+global_defn ::= c_code.
+assign ::= connect variable to string SEMICOLON.
+assign ::= connect variable subscript to string SEMICOLON.
+assign ::= connect variable to LBRACE strings RBRACE SEMICOLON.
+assign ::= connect variable SEMICOLON.
+connect ::= ASSIGN.
+connect ::= CONNECT.
+to ::= TO.
+to ::=.
+strings ::= strings COMMA string.
+strings ::= string.
+strings ::=.
+monitor ::= MONITOR variable opt_subscript SEMICOLON.
+sync ::= SYNC variable opt_subscript to event_flag SEMICOLON.
+syncq ::= SYNCQ variable opt_subscript to event_flag syncq_size SEMICOLON.
+syncq ::= SYNCQ variable opt_subscript syncq_size SEMICOLON.
+event_flag ::= NAME.
+variable ::= NAME.
+syncq_size ::= INTCON.
+syncq_size ::=.
+opt_subscript ::= subscript.
+opt_subscript ::=.
+subscript ::= LBRACKET INTCON RBRACKET.
+declaration ::= type init_declarators SEMICOLON.
+init_declarators ::= init_declarator.
+init_declarators ::= init_declarators COMMA init_declarator.
+init_declarator ::= declarator.
+init_declarator ::= declarator EQUAL init_expr.
+declarator ::= ASTERISK declarator.
+declarator ::= direct_declarator.
+direct_declarator ::= variable.
+direct_declarator ::= LPAREN declarator RPAREN.
+direct_declarator ::= direct_declarator subscript.
+init_expr ::= LBRACE init_exprs RBRACE.
+init_expr ::= expr.
+init_exprs ::= init_exprs COMMA init_expr.
+init_exprs ::= init_expr.
+init_exprs ::=.
+type ::= CHAR.
+type ::= SHORT.
+type ::= INT.
+type ::= LONG.
+type ::= UNSIGNED CHAR.
+type ::= UNSIGNED SHORT.
+type ::= UNSIGNED INT.
+type ::= UNSIGNED LONG.
+type ::= INT8T.
+type ::= UINT8T.
+type ::= INT16T.
+type ::= UINT16T.
+type ::= INT32T.
+type ::= UINT32T.
+type ::= FLOAT.
+type ::= DOUBLE.
+type ::= STRING.
+type ::= EVFLAG.
+type ::= FOREIGN.
+option ::= OPTION option_value NAME SEMICOLON.
+option_value ::= ADD.
+option_value ::= SUB.
+state_sets ::= state_sets state_set.
+state_sets ::= state_set.
+state_set ::= SS NAME LBRACE ss_defns states RBRACE.
+ss_defns ::= ss_defns ss_defn.
+ss_defns ::=.
+ss_defn ::= assign.
+ss_defn ::= monitor.
+ss_defn ::= sync.
+ss_defn ::= syncq.
+ss_defn ::= declaration.
+states ::= states state.
+states ::= state.
+state ::= STATE NAME LBRACE state_defns entry whens exit RBRACE.
+state_defns ::= state_defns state_defn.
+state_defns ::=.
+state_defn ::= assign.
+state_defn ::= monitor.
+state_defn ::= sync.
+state_defn ::= syncq.
+state_defn ::= declaration.
+state_defn ::= option.
+entry ::= ENTRY block.
+entry ::=.
+exit ::= EXIT block.
+exit ::=.
+whens ::= whens when.
+whens ::= when.
+when ::= WHEN LPAREN opt_expr RPAREN block STATE NAME.
+when ::= WHEN LPAREN opt_expr RPAREN block EXIT.
+block ::= LBRACE block_defns statements RBRACE.
+block_defns ::= block_defns block_defn.
+block_defns ::=.
+block_defn ::= declaration.
+block_defn ::= c_code.
+statements ::= statements statement.
+statements ::=.
+statement ::= BREAK SEMICOLON.
+statement ::= CONTINUE SEMICOLON.
+statement ::= STATE NAME SEMICOLON.
+statement ::= c_code.
+statement ::= LBRACE block_defns statements RBRACE.
+statement ::= IF LPAREN comma_expr RPAREN statement.
+statement ::= IF LPAREN comma_expr RPAREN statement ELSE statement.
+statement ::= WHILE LPAREN comma_expr RPAREN statement.
+statement ::= for_statement.
+statement ::= opt_expr SEMICOLON.
+for_statement ::= FOR LPAREN opt_expr SEMICOLON opt_expr SEMICOLON opt_expr RPAREN statement.
+expr ::= INTCON.
+expr ::= FPCON.
+expr ::= string.
+expr ::= variable.
+expr ::= LPAREN comma_expr RPAREN.
+expr ::= NAME LPAREN args RPAREN. [POST]
+expr ::= EXIT LPAREN args RPAREN. [POST]
+expr ::= expr LBRACKET expr RBRACKET. [POST]
+expr ::= expr PERIOD expr. [POST]
+expr ::= expr POINTER expr. [POST]
+expr ::= expr INCR. [POST]
+expr ::= expr DECR. [POST]
+expr ::= ADD expr. [PRE]
+expr ::= SUB expr. [PRE]
+expr ::= ASTERISK expr. [PRE]
+expr ::= AMPERSAND expr. [PRE]
+expr ::= NOT expr. [PRE]
+expr ::= TILDE expr. [PRE]
+expr ::= INCR expr. [PRE]
+expr ::= DECR expr. [PRE]
+expr ::= expr SUB expr.
+expr ::= expr ADD expr.
+expr ::= expr ASTERISK expr.
+expr ::= expr SLASH expr.
+expr ::= expr GT expr.
+expr ::= expr GE expr.
+expr ::= expr EQ expr.
+expr ::= expr NE expr.
+expr ::= expr LE expr.
+expr ::= expr LT expr.
+expr ::= expr OROR expr.
+expr ::= expr ANDAND expr.
+expr ::= expr LSHIFT expr.
+expr ::= expr RSHIFT expr.
+expr ::= expr VBAR expr.
+expr ::= expr CARET expr.
+expr ::= expr AMPERSAND expr.
+expr ::= expr MOD expr.
+expr ::= expr QUESTION expr COLON expr.
+expr ::= expr EQUAL expr.
+expr ::= expr ADDEQ expr.
+expr ::= expr SUBEQ expr.
+expr ::= expr ANDEQ expr.
+expr ::= expr OREQ expr.
+expr ::= expr DIVEQ expr.
+expr ::= expr MULEQ expr.
+expr ::= expr MODEQ expr.
+expr ::= expr LSHEQ expr.
+expr ::= expr RSHEQ expr.
+expr ::= expr XOREQ expr.
+comma_expr ::= comma_expr COMMA expr.
+comma_expr ::= expr.
+opt_expr ::= comma_expr.
+opt_expr ::=.
+args ::= args COMMA expr.
+args ::= expr.
+args ::=.
+string ::= STRCON.
+c_codes ::= c_codes c_code.
+c_codes ::=.
+c_code ::= CCODE.

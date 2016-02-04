@@ -1,0 +1,32 @@
+Index: src/AsynDriverInterface.cc
+===================================================================
+RCS file: /cvs/G/DRV/StreamDevice2/src/AsynDriverInterface.cc,v
+retrieving revision 1.22
+retrieving revision 1.23
+diff -c -r1.22 -r1.23
+*** src/AsynDriverInterface.cc	30 Aug 2012 13:39:05 -0000	1.22
+--- src/AsynDriverInterface.cc	8 Nov 2012 09:27:21 -0000	1.23
+***************
+*** 618,626 ****
+      asynStatus status;
+      size_t written = 0;
+  
+      // discard any early input, but forward it to potential async records
+      // thus do not use pasynOctet->flush()
+-     pasynUser->timeout = 0;
+      do {
+          char buffer [256];
+          size_t received = sizeof(buffer);
+--- 618,629 ----
+      asynStatus status;
+      size_t written = 0;
+  
++     pasynUser->timeout = 0;
++     if (pasynGpib)
++          pasynOctet->flush(pvtOctet, pasynUser);
++     else
+      // discard any early input, but forward it to potential async records
+      // thus do not use pasynOctet->flush()
+      do {
+          char buffer [256];
+          size_t received = sizeof(buffer);

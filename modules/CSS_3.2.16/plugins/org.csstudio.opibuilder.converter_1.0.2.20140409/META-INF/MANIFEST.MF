@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui;bundle-version="3.4.1",org.eclipse.core
+ .runtime;bundle-version="3.4.0",org.eclipse.core.resources;bundle-ver
+ sion="3.4.1",org.csstudio.opibuilder,org.eclipse.help,org.junit;bundl
+ e-version="3.8.2"
+Export-Package: org.csstudio.opibuilder.converter,org.csstudio.opibuil
+ der.converter.model,org.csstudio.opibuilder.converter.parser,org.csst
+ udio.opibuilder.converter.prototype.reflectconstr,org.csstudio.opibui
+ lder.converter.prototype.runtimeannot,org.csstudio.opibuilder.convert
+ er.writer
+Bundle-Vendor: Xihui Chen<chenx1@ornl.gov> - SNS
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: converter.jar,src/test/resources,lib/log4j-1.2.14.ja
+ r
+Bundle-Version: 1.0.2.20140409
+Bundle-Name: EDM2BOY Converter
+Bundle-Activator: org.csstudio.opibuilder.converter.EDM2OPIConverterPl
+ ugin
+Bundle-ManifestVersion: 2
+Bundle-Description: EDM to BOY Converter
+Bundle-SymbolicName: org.csstudio.opibuilder.converter;singleton:=true
+Main-Class: org.csstudio.opibuilder.converter.EdmConverter
+
+
