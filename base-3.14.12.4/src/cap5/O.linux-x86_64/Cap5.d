@@ -1,10 +1,10 @@
 Cap5.o: Cap5.c /usr/lib64/perl5/CORE/EXTERN.h \
  /usr/lib64/perl5/CORE/perl.h /usr/lib64/perl5/CORE/config.h \
- /usr/lib64/perl5/CORE/handy.h /usr/lib64/perl5/CORE/unixish.h \
- /usr/lib64/perl5/CORE/iperlsys.h /usr/lib64/perl5/CORE/perlio.h \
- /usr/lib64/perl5/CORE/perly.h /usr/lib64/perl5/CORE/sv.h \
- /usr/lib64/perl5/CORE/regexp.h /usr/lib64/perl5/CORE/utf8.h \
- /usr/lib64/perl5/CORE/regcharclass.h \
+ /usr/lib64/perl5/CORE/handy.h /usr/lib64/perl5/CORE/charclass_invlists.h \
+ /usr/lib64/perl5/CORE/unixish.h /usr/lib64/perl5/CORE/iperlsys.h \
+ /usr/lib64/perl5/CORE/perlio.h /usr/lib64/perl5/CORE/perly.h \
+ /usr/lib64/perl5/CORE/sv.h /usr/lib64/perl5/CORE/regexp.h \
+ /usr/lib64/perl5/CORE/utf8.h /usr/lib64/perl5/CORE/regcharclass.h \
  /usr/lib64/perl5/CORE/unicode_constants.h \
  /usr/lib64/perl5/CORE/op_reg_common.h /usr/lib64/perl5/CORE/util.h \
  /usr/lib64/perl5/CORE/form.h /usr/lib64/perl5/CORE/gv.h \

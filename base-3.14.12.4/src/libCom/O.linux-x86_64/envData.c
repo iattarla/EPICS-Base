@@ -1,10 +1,10 @@
 /* envData.c
  *
- * Created Thu Sep  3 13:34:34 2015
+ * Created Mon May  2 09:42:37 2016
  * by bldEnvData.pl from files:
- *	/usr/local/epics/base-3.14.12.4/src/libCom/env/envDefs.h
- *	/usr/local/epics/base-3.14.12.4/configure/CONFIG_ENV
- *	/usr/local/epics/base-3.14.12.4/configure/CONFIG_SITE_ENV
+ *	/home/bilal/TARLA/epics/base/base-3.14.12.4/src/libCom/env/envDefs.h
+ *	/home/bilal/TARLA/epics/base/base-3.14.12.4/configure/CONFIG_ENV
+ *	/home/bilal/TARLA/epics/base/base-3.14.12.4/configure/CONFIG_SITE_ENV
  */
 
 #define epicsExportSharedSymbols
